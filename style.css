@@ -23,7 +23,8 @@ body {
 
 .header_main img {
   position: relative;
-  top: 10px
+  width: 25%;
+  top: 70px
 }
 
 .header_menu {
@@ -31,10 +32,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  font-size: 25px;
-  height: 120px;
-  width: 90%;
+  font-size: 18px;
+  height: 60px;
+  width: 95%;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 
@@ -54,24 +56,73 @@ body {
 
 }
 
-/* CONTAINER */
+/* SECTION */
 .section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: black;
+  width: 95%;
+  margin: auto;
 }
 
-.prueba {
-  height: 100px;
+.container-body {
+  display: grid;
+  grid-template-columns: 750px 340px;
 }
-.container {
-  width: 90%;
-  margin: auto;
-  background: red;
+
+.table-inicio_integrantes-hermandad {
+  font-size: 15px;
   color: white;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  margin-right: 30px;
+ 
 }
+
+/* Table Header */
+.table-inicio_header {
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.table-inicio_nombre {
+  padding: 0 50px;
+  color: yellow;
+  border: 1px solid;
+}
+.table-inicio_raza {
+  padding: 0 10px;
+  color: yellow;
+}
+.table-inicio_clase {
+  padding: 0 10px;
+  color: yellow;
+}
+.table-inicio_funcion {
+  padding: 0 15px;
+  color: yellow;
+}
+.table-inicio_nivel {
+  padding: 0 20px;
+  color: yellow;
+}
+.table-inicio_rango-hermandad {
+  color: white;
+}
+/* ---------------------------------------- */
+
+
+/* Table Body */
+.table-inicio_body {
+  text-align: center;
+  font-size: 14px;
+  
+}
+
+/* CARTA DERECHA DE INFORMACION */
+.carta-informacion {
+  /* background: red; */
+  color: white;
+  /* text-align: center; */
+  border-left: 1px solid;
+
+}
+
+
